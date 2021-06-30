@@ -1,0 +1,14 @@
+/* *** HEADER *** */
+ul.nav {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid black;
+}
+
+/* *** FOOTER *** */
+#footer-logo {
+    border-top: 4px double lightgray;
+} .footer-col-name, .footer-col-ul>li {
+    font-size: smaller !important;
+} #footer-copyright {
+    border-top: 1px solid lightgray;
+}
