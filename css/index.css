@@ -59,9 +59,19 @@ ul .nav {
     padding: 8px 0px;
     border-bottom: 4px double rgba(0,0,0,0.8);
 }
-
-
 /* end */
+
+/* Breaking news */
+.breaking-news {
+    margin: 12px 0px;
+}
+.paper-body ul {
+    padding: 0px;
+}
+.paper-item-abstract {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.9em;
+}
 
 /* *** FOOTER *** */
 #footer-logo {
