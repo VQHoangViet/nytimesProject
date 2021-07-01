@@ -54,7 +54,11 @@ ul .nav {
     color: black
 }
 
-
+.minishow-tab {
+    border-top: 2px solid rgba(0,0,0,0.4);
+    padding: 8px 0px;
+    border-bottom: 4px double rgba(0,0,0,0.8);
+}
 
 
 /* end */
