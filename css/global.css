@@ -4,7 +4,9 @@
 
 .nav-link {
     color: black !important;
-} .col-link {
+}
+
+.col-link {
     color: black;
     text-decoration: none;
     margin-bottom: 8px;

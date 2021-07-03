@@ -27,7 +27,7 @@
         <div class="d-flex flex-column p-1">
             
             <!-- HEADER -->
-            <div id="header" class="row">
+            <header class="row">
                 <!-- Menus -->
                 <div class="col-xl-3">
                     <div id="header-btn-left">
@@ -76,27 +76,23 @@
                 <div class="col-xl-3">
                     <div class="d-flex flex-column align-items-end">
                         <div id="header-btn-right">
-                            <a href="#" class="btn btn-primary px-3 text-uppercase">Subscribe now</a>
-                            <a href="#" class="btn btn-primary px-3 text-uppercase">Log in</a>
+                            <a href="#" class="btn btn-primary px-3 text-uppercase fw-bold">Subscribe now</a>
+                            <a href="#" class="btn btn-primary px-3 text-uppercase fw-bold">Log in</a>
                         </div>
                         <div id="header-widget" class="bg-light m-2" style="width: 200px; height: 80px;">
                             *WEATHER WIDGET
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="navbar" class="row">
+            </header>
+            <nav id="navbar" class="row">
                 <!-- category list in js/index.js -->
-                <ul id="header-navbar" class="nav justify-content-center"/>
-            </div>
-     
-            
-            
-            
+                <ul id="header-navbar" class="nav justify-content-around"/>
+            </nav>
             <!-- END HEADER -->
             
             <!-- BODY -->
-            <div id="body" class="container-fluid ">
+            <main class="container-fluid ">
                 
                 <!-- tab currently mini showing -->
                 <div class="row minishow-tab">                  
@@ -156,13 +152,13 @@
                 <!-- end: breaking new layout -->
 
 
-            </div>
+            </main>
 
 
                 <!-- END BODY -->
         
             <!-- FOOTER -->
-            <div id="footer" class="row">
+            <footer class="row">
                 <div id="footer-logo" class="col-12 pt-3 mt-3">
                     <a href="/" aria-label="The New York Times">
                         <svg width="20%"
@@ -199,7 +195,7 @@
                     <div class="footer-col-name pb-2 text-uppercase fw-bold">Subscribe</div>
                     <ul class="footer-col-ul list-group list-group-flush"/>
                 </div>
-            </div>
+            </footer>
             <div id="footer-copyright" class="row">
 
             </div>
