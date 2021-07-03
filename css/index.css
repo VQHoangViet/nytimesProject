@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+h5 {
+    font-size: 1rem;
+}
+
 .box {
-    min-width: 100%;
+    max-width: 100%;
     width: 150px;
     height: 150px;
     text-align:center;
@@ -19,14 +23,13 @@
 
 .paper-border-left {
     border-left: 2px solid rgba(0, 0, 0, 0.2);
-    padding-left: 1.5rem;
+    padding-left: 2%;
 }
 
 .paper-border-top {
     padding-top: 12px !important;
     padding-bottom: 12px !important;
     border-top: 1px solid rgba(0, 0, 0, 1);
-   
 }
 
 .paper-border-top-light {
@@ -125,7 +128,7 @@ ul .nav {
 }
 .paper-item-abstract {
     color: rgba(0, 0, 0, 0.6);
-    font-size: 0.9em;
+    font-size: 0.7em;
     margin: 0;
 }
 
